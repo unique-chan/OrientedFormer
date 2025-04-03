@@ -2,6 +2,19 @@
 
 The Chinese Version is below (中文版在下面).
 
+## 🌱 환경설정 (김예찬)
+
+~~~shell
+conda create --name orientedformer python=3.8 -y
+conda activate orientedformer
+pip install torch==1.10.2+cu113 torchvision==0.11.3+cu113 -f https://download.pytorch.org/whl/torch_stable.html  
+pip install -U openmim==0.3.9
+mim install mmcv-full==1.7.2
+pip install -v -e mmdetection/
+pip install -v -e mmrotate/
+pip install setuptools==59.5.0
+~~~
+
 
 
 ## Introduction
